@@ -3,3 +3,128 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.nav{
+    display: flex;
+    height: 100px;
+    background-color: gray;
+    display: flex;
+}
+.colors{
+    padding: 10px;
+    width:20%;
+    display: flex;
+    justify-content: center;
+}
+.new{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+}
+.blue, .green, .red, .pink{
+    height: 50px;
+    width:50px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.blue,.bt{
+    background-color: blue;
+}
+.green,.gt{
+    background-color: green;
+}
+.red,.rt{
+    background-color: red;
+}
+.pink,.pt{
+    background-color: pink;
+}
+.hov{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.hov:hover{
+    background-color: lightgray;
+}
+.buttons{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    background-color: gray;
+}
+i{
+    font-size: 300%;
+    padding: 10px;
+    border:none;
+    /* background-color: gray; */
+}
+button:hover{
+    background-color: lightgray;
+}
+.contentbox{
+    position: absolute;
+    left:25%;
+    top:20%;
+    width:45%;
+    height: 400px;
+    background-color: white;
+    visibility: hidden;
+}
+form{
+    height: 100%;
+}
+input{
+    border: lightgray solid 20px;
+    width:60%;
+    height: 100%;
+}
+#co{
+    display: flex;
+
+}
+.theme{
+    height: 100%;
+    width:40%;
+    border: gray solid 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 10px;
+}
+.bt, .gt, .rt, .pt{
+    width: 100%;
+    height: 100px;
+
+}
+#sub{
+    width:100px;
+    height: 60px;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.list-i{
+    width:500px;
+    border: black solid 5px;
+}
+.head{
+    background-color: black;
+    height: 50px;
+}
+.mid{
+    height: 50px;
+    background-color: white;
+}
+.foot{
+    background-color: pink;
+    height: 100px;
+}
